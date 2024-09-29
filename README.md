@@ -25,3 +25,10 @@ run laravel application
 ```
 php artisan serve
 ```
+
+
+# dependencies
+
+-----
+
+- Filament/filament
