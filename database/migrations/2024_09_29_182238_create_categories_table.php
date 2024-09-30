@@ -17,7 +17,7 @@ return new class extends Migration
             $table->string('name');
             $table->string('url');
             $table->string('description')->nullable();
-            $table->foreignIdFor(Category::class)->nullable();
+            $table->foreignIdFor(Category::class, 'parent_id')->nullable();
             $table->timestamp('published_at');
             $table->timestamps();
         });
