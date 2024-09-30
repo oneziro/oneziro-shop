@@ -25,3 +25,15 @@ run laravel application
 ```
 php artisan serve
 ```
+
+
+# dependencies
+
+-----
+
+- Filament/filament
+
+
+
+## toDo
+-[ ] add admin user filter for filament
